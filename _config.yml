@@ -1,0 +1,135 @@
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
+
+url: https://ucsb-cs32.github.io 
+baseurl: "/w20"
+
+course: "CS32"
+qtr: "W20"
+quarter: "Winter 2020"
+piazza_url: piazza.com/ucsb/winter2020/cmpsc32/home
+gauchospace_course_page:
+gradescope_class_url: https://www.gradescope.com/courses/77950
+
+ta_list: "Robert"
+ta_list_full: "Robert McLaughlin"
+mentors_list: "Arthur Gatin, Xilin Wang, Grace Zhang, Cindy Zhao"
+discussion_section_times: "12pm, 1pm"
+
+github_url: https://github.com/ucsb-cs32/w20
+mentor_url:
+
+on_campus: http://proquest.safaribooksonline.com
+off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048
+
+submit_cs_course:
+
+start_week: 0
+start_date: 2020-01-05 00:00:00.00-7:00
+num_weeks: 10
+extra_exam_week: true
+sections: "12pm, 1pm"
+
+cal_dates: >
+  [
+  {"label":"First day of Fall Quarter", "date":"2020-01-06" },
+  {"label":"Univ Holiday: MLK Jr. Day", "date":"2020-01-20" },
+  {"label":"Univ Holiday: Presidents' Day", "date":"2020-02-17" },
+  {"label":"Last day of instruction", "date":"2020-03-13" },
+  {"label":"Finals Begin", "date":"2020-03-16" },
+  {"label":"Finals End", "date":"2020-03-20" },
+  {"label":"Last day to drop (11pm)", "date":"2020-02-03" }
+  ]
+
+
+kramdown:
+   parse_block_html: true
+   default_lang: python
+
+exclude:
+   - vendor
+   - _hwk/keep
+   - _lab/keep
+   - _exam/keep
+   - _lectures/keep
+   - _info/keep        
+include:
+   - _pages
+   
+timezone: America/Los_Angeles
+
+collections:
+  hwk:
+    output: true
+    permalink: /hwk/:path/
+    last_before: false
+  lab:
+    output: true
+    permalink: /lab/:path/
+    last_before: false
+  labWIP:
+    output: true
+    permalink: /labWIP/:path/
+    last_before: false
+  exam:
+    output: true
+    permalink: /exam/:path/
+  info:
+    output: true
+    permalink: /info/:path/
+  lectures:
+    output: true
+    permalink: /lectures/:path/
+
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: default
+  - 
+    scope:
+      path: ""
+      type: lectures
+    values:
+      layout: lecture
+  - 
+    scope:
+      path: ""
+      type: hwk
+    values:
+      layout: hwk
+  - 
+    scope:
+      path: ""
+      type: lab
+    values:
+      layout: lab
+  - 
+    scope:
+      path: ""
+      type: labWIP
+    values:
+      layout: lab
+  - 
+    scope:
+      path: ""
+      type: exam
+    values:
+      layout: exam_info
+  - 
+    scope:
+      path: ""
+      type: info
+    values:
+      layout: default
+  -
+    scope:
+      path: "syllabus.md"
+      type: info
+    values:
+      layout: handout

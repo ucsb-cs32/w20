@@ -1,0 +1,7 @@
+---
+num: "Lecture 2"
+desc: "STL: Vectors, Iterators, Sets, and Maps"
+ready: true
+lecture_date: 2020-01-08 12:30:00.00-7:00
+---
+
