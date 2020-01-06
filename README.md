@@ -1,4 +1,4 @@
-# github.com/ucsb-cs32/w19
+# github.com/ucsb-cs32/w20
 
 Jekyll-based website for CS32, Winter 2020
 
