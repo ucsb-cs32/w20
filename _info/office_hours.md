@@ -14,25 +14,22 @@ Richert Wang (HFH 1151)
 
 # TAs
 
-Robert McLaughlin (Trailer 936 Room 103/104)
+Robert McLaughlin 
 
-* TBD
+* Mondays 3 - 5pm (Trailer 936 Room 103/104)
 
 # Tutor Open Lab Hours
 
-Arthur Gatin (Phelps 3526)
+Arthur Gatin
 
-* TBD
+* Mondays 7:30 - 9pm (Phelps 3525)
+* Wednesdays 8 - 9pm (Phelps 3526)
 
-Xilin Wang (Phelps 3526)
+Xilin Wang
 
-* TBD
+* Wednesdays 7 - 9pm (Phelps 3526)
 
-Grace Zhang (Phelps 3526)
+Grace Zhang 
 
-* TBD
-
-Cindy Zhao (Phelps 3526)
-
-* TBD
+* Tuesdays 2 - 4:30pm (Phelps 3525)
 
