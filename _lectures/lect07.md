@@ -131,8 +131,8 @@ int main() {
 # Quicksort
 * Idea:
 	* Can subdivide array based on a “pivot” value.
-		* Place elements < pivot to the right-side of the array
-	* Place elements >= pivot to the left-side of the array
+		* Place elements < pivot to the left-side of the array
+	* Place elements > pivot to the right-side of the array
 		* Repeat for each left / right portion of the array
 	* When sub array sizes = 1, then entire array is sorted
 	* Sorting is done “top-down”
