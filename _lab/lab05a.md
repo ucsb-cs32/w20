@@ -78,7 +78,7 @@ Your job is to modify `WordCount.cpp` based on the specifications and thoroughly
 
 The lab assignment "Lab05a" should appear in your Gradescope dashboard in CMPSC 32. If you haven't submitted anything for this assignment yet, Gradescope will prompt you to upload your files.
 
-You will submit your `WordCount.cpp` implementation along with a `lab05Test.cpp` file containing your test application(s) (if you wrote multiple test applications, you can name each one with `lab05Test01.cpp`, `lab05Test02.cpp`, etc.). For this lab, you are <b>required</b> to submit your files with your github repo.
+<b>You will submit your `WordCount.cpp` implementation along with a `lab05Test.cpp` file containing your test application(s) (if you wrote multiple test applications, you can name each one with `lab05Test01.cpp`, `lab05Test02.cpp`, etc.).</b> For this lab, you are <b>required</b> to submit your files with your github repo.
 
 As mentioned earlier, you will not know Gradescope's score until AFTER the deadline has passed. When submitting your file, if you pass the compilation checks:
 
