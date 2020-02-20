@@ -4,7 +4,7 @@ num: lab05a
 ready: true
 desc: "Hash Table Sort Testing"
 assigned: 2020-02-13 08:00:00.00-7
-due: 2020-02-19 23:59:00.00-7
+due: 2020-02-20 23:59:00.00-7
 ---
 
 # Goals
