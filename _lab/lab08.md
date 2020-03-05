@@ -86,7 +86,7 @@ Your implementation will need to implement the following functions, and throw Ex
 Another note on checking if a template type is a pointer:
 
 * You may find the following std functionality handy if you want to determine if a Template type is a pointer or not:
-	* `std::is_poiner<T>::value` in `<type_traits>`.
+	* `std::is_pointer<T>::value` in `<type_traits>`.
 	* This will return true if `T` is a pointer type, and false otherwise.
 * You may also encounter a compilation issue when attempting to delete a Template pointer type `T` (and not `T*`).
 	* C++ is kinda finicky about this, but there are ways to destruct elements of Templated pointer types.
